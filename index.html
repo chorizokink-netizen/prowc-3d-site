@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>3D-модуль</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="viewer.css">
+<script type="module" src="boot.js"></script>
+<script nomodule>document.documentElement.className += ' old-browser';</script>
+</head>
+<body>
+<div id="app" class="app is-idle">
+  <canvas id="c" aria-label="3D-модель модуля"></canvas>
+  <img id="poster" class="poster" alt="" decoding="async">
+  <div id="loader" class="loader" hidden>
+    <div class="loader__bar"><div id="loader-fill" class="loader__fill"></div></div>
+    <div id="loader-text" class="loader__text">Загрузка…</div>
+  </div>
+  <div id="hint" class="hint" role="status" aria-live="polite"></div>
+  <div id="error" class="error" hidden role="alert">
+    <p id="error-text"></p>
+    <button id="error-retry" type="button" class="btn">Повторить</button>
+  </div>
+  <div id="ui" class="ui"></div>
+</div>
+<div class="old-browser-msg">Ваш браузер устарел и не может показать 3D-модель. Откройте страницу в свежей версии Chrome, Safari, Firefox или Яндекс Браузера.</div>
+</body>
+</html>
