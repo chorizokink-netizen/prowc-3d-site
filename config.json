@@ -26,100 +26,86 @@
     {
       "id": "WC2",
       "label": "Двухместный WC",
-      "file": "models/WC2/WC2_A-a6e91458cd47.glb",
-      "poster": "models/WC2.webp",
-      "source": "export/raw/WC2_R21_raw.glb",
-      "bytes": 5878876,
-      "sourceBranch": "agent-d/mgn-mother-session-2026-10-08",
-      "sourceCommit": "172dd0cba393965a84910a9c6e2474d6ad78451f",
       "files": {
         "A": {
           "finish": "A",
           "file": "models/WC2/WC2_A-a6e91458cd47.glb",
           "bytes": 5878876,
-          "sha256": "a6e91458cd47d8a2134b32799b5b00f64ba51eb9b0520697713e80ee6fdd383c",
-          "source": "wc2_D/WC2_D_BLACK.glb"
+          "sha256": "a6e91458cd47d8a2134b32799b5b00f64ba51eb9b0520697713e80ee6fdd383c"
         },
         "B": {
           "finish": "B",
           "file": "models/WC2/WC2_B-5bda0cfd3e64.glb",
           "bytes": 7155124,
-          "sha256": "5bda0cfd3e645c2707582e96079b24200ce2538e93ad854dec1c87b1473c9cd9",
-          "source": "wc2_D/WC2_D_SLATS.glb"
+          "sha256": "5bda0cfd3e645c2707582e96079b24200ce2538e93ad854dec1c87b1473c9cd9"
         }
-      }
+      },
+      "file": "models/WC2/WC2_A-a6e91458cd47.glb",
+      "bytes": 5878876,
+      "poster": "models/WC2.webp"
     },
     {
       "id": "WC6",
       "label": "Шестиместный WC",
-      "sourceBranch": "agent-c/wc6-photo-fixes",
-      "sourceCommit": "234cc1cffbac7eba800a8f831cd0a0a97e6e2cbe",
       "files": {
         "A": {
           "finish": "A",
           "file": "models/WC6/WC6_A-fa0af8f82bdf.glb",
           "bytes": 3601500,
-          "sha256": "fa0af8f82bdfa93ef61f7b7f96f7bedfe2543d667075b2a83b3cb9298aa94818",
-          "source": "02_WC6/export/WC6_BLACK.glb"
+          "sha256": "fa0af8f82bdfa93ef61f7b7f96f7bedfe2543d667075b2a83b3cb9298aa94818"
         },
         "B": {
           "finish": "B",
           "file": "models/WC6/WC6_B-d8699d8c5652.glb",
           "bytes": 4381864,
-          "sha256": "d8699d8c5652e8e981cf5cee6403622469b5c87a9fa0aeabd19d89ee89785b4b",
-          "source": "02_WC6/export/WC6_SLATS.glb"
+          "sha256": "d8699d8c5652e8e981cf5cee6403622469b5c87a9fa0aeabd19d89ee89785b4b"
         }
       },
       "file": "models/WC6/WC6_A-fa0af8f82bdf.glb",
-      "bytes": 3601500
+      "bytes": 3601500,
+      "poster": "models/WC6.webp"
     },
     {
       "id": "SHOWER2",
       "label": "Душевой модуль",
-      "sourceBranch": "agent-d/shower2-fixes-2026-10-07",
-      "sourceCommit": "a34c0b69b1cf0a539e003c3bf37a3b1a1dc0b809",
       "files": {
         "A": {
           "finish": "A",
-          "file": "models/SHOWER2/SHOWER2_A-feba4975d2b0.glb",
-          "bytes": 5862164,
-          "sha256": "feba4975d2b07cb11149dee7f2c7f6f00a6a935660c8ed51e3ad0b684e7749d5",
-          "source": "03_SHOWER2/SHOWER2_BLACK.glb"
+          "file": "models/SHOWER2/SHOWER2_A-6bc3bb4fc0ab.glb",
+          "bytes": 5859320,
+          "sha256": "6bc3bb4fc0ab08d1952996fb0bbdbba10bdcc9cf8639e81cb4b6dee7d3e35de5"
         },
         "B": {
           "finish": "B",
-          "file": "models/SHOWER2/SHOWER2_B-f007bf019317.glb",
-          "bytes": 7806696,
-          "sha256": "f007bf0193174a5264d5b13bc5c4dac7507259fdacd34d5600f58dbfe418498a",
-          "source": "03_SHOWER2/SHOWER2_SLATS.glb"
+          "file": "models/SHOWER2/SHOWER2_B-d7a421a1589e.glb",
+          "bytes": 7803852,
+          "sha256": "d7a421a1589eb351b76eb43a421394a6515546165fca8c0536bc08e252662dc1"
         }
       },
-      "file": "models/SHOWER2/SHOWER2_A-feba4975d2b0.glb",
-      "bytes": 5862164
+      "file": "models/SHOWER2/SHOWER2_A-6bc3bb4fc0ab.glb",
+      "bytes": 5859320,
+      "poster": "models/SHOWER2.webp"
     },
     {
       "id": "MGN_MOTHER",
       "label": "МГН и комната матери",
-      "sourceBranch": "agent-d/mgn-v24-2026-10-10",
-      "sourceCommit": "01ee6159fe5365fc79cd887437a2b595c46015e9",
       "files": {
         "A": {
           "finish": "A",
           "file": "models/MGN_MOTHER/MGN_MOTHER_A-680c58306c4a.glb",
           "bytes": 738364,
-          "sha256": "680c58306c4a852556b8688235b6d4b544d5e51bfaed1bbf3eb0f57a37e4c6d3",
-          "source": "04_MGN_MOTHER/MGN_MOTHER_BLACK.glb"
+          "sha256": "680c58306c4a852556b8688235b6d4b544d5e51bfaed1bbf3eb0f57a37e4c6d3"
         },
         "B": {
           "finish": "B",
           "file": "models/MGN_MOTHER/MGN_MOTHER_B-1975f4141c94.glb",
           "bytes": 2647116,
-          "sha256": "1975f4141c942a36ec36b064e51a94a36f31b73f0cf78a0798f2748a33d19281",
-          "source": "04_MGN_MOTHER/MGN_MOTHER_SLATS.glb"
+          "sha256": "1975f4141c942a36ec36b064e51a94a36f31b73f0cf78a0798f2748a33d19281"
         }
       },
       "file": "models/MGN_MOTHER/MGN_MOTHER_A-680c58306c4a.glb",
-      "bytes": 738364
+      "bytes": 738364,
+      "poster": "models/MGN_MOTHER.webp"
     }
   ]
 }
