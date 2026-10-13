@@ -82,6 +82,7 @@ export async function startViewer(cfg, state, { showError }) {
   const mixers = [];
   let tween = null; // camera transition
   let running = false;
+  let renderedFrames = 0;
   let slowFrames = 0;
   function invalidate() {
     if (running) return;
@@ -109,6 +110,7 @@ export async function startViewer(cfg, state, { showError }) {
     if (prevPos.distanceToSquared(camera.position) > 1e-10 || prevTarget.distanceToSquared(controls.target) > 1e-10) busy = true;
     clampCamera();
     renderer.render(scene, camera);
+    renderedFrames++;
     if (busy) requestAnimationFrame(frame); else running = false;
   }
   controls.addEventListener('change', invalidate);
@@ -270,7 +272,7 @@ export async function startViewer(cfg, state, { showError }) {
     // hook for automated checks (test/run.mjs)
     window.__prowc = { ready: true, module: id, finish: () => ui.finish, active: () => active,
       camera: () => camera.position.toArray().concat(controls.target.toArray()), busy: () => running,
-      loadedFile: () => loadedFile };
+      loadedFile: () => loadedFile, renderedFrames: () => renderedFrames, dpr: () => displayDPR };
   }
 
   function prepareModel(gltf, mod) {
